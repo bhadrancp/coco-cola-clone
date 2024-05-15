@@ -1,0 +1,526 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ededed;
+  height: 4000px;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  padding-top: 31px;
+  padding-left: 125px;
+}
+.header ul {
+  width: 100%;
+  display: flex;
+  gap: 60px;
+  margin-left: 50px;
+}
+img.logo {
+  height: 25px;
+}
+.header li {
+  list-style: none;
+  font-size: 18px;
+}
+
+/* Image slider begins */
+.Section-1 {
+  width: 100%;
+  height: 700px;
+  margin-top: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1310px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+    border-radius: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.slider-dots{
+    margin-top: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* image slider end */
+.sec-2 {
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+}
+.exp-wraper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.exp-h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.exp-con {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  gap:20px;
+}
+.exp-img-cola {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/homepage/Coke%20Studi%20Bharat_Banner_R2_Desktop_640px%20X%20552px_.jpg/width1960.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 467px;
+  width: 541px;
+  border-radius: 20px;
+}
+.exp-con-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  height: auto;
+  gap: 30px;
+}
+.sec-2-img{
+    width: 50%;
+    height:100% ;
+}
+.btn-explore-now{
+    width: 310px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid;
+    cursor: pointer;
+}
+.exp-wraper h1 {
+  text-align: center;
+  font-family: bold, sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  width: 500px;
+}
+/* section3 begins */
+.sec-3 {
+  width: 100%;
+  height: 1050px;
+  padding-top: 150px;
+}
+.sec3-h1{
+    display: flex;
+    justify-content: center;
+    font-family:  ' Bold', sans-serif;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.cards {
+  width: 100%;
+  height: 690px;
+}
+.news-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.news-cards{
+    width: 544px;
+    height: auto;
+    background-color: white;
+  display: flex;
+  flex-direction: column;  
+  border-radius: 15px;
+}
+.news-card-text{
+    padding: 45px;
+}
+
+.news-card-text p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.newscard-h3{
+    font:  27px / 30px Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/* starting of section-4 */
+.sec-4 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.sec-4-card1{
+  width: 640px;
+  height: 552px;
+  margin-top: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.sec-4-card2 {
+  width: 544px;
+  height: 552px;
+  padding: 60px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: -110px;
+}
+.sec-4-card2 h2{
+    font-size: 38px;
+    line-height: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.sec-4-card2 p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+.sec-4-card2 button{
+    cursor: pointer;
+    background-color: white;
+    width: 330px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: black;
+}
+
+.card-3-img {
+  border-radius: 20px;
+}
+.sec-5 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.sec-5-h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-wrapper {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card-img1 {
+    width: 256px;
+    height: 256px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.card-img2 {
+    width: 256px;
+    height: 256px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.card-img3 {
+    width: 256px;
+    height: 256px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.card-wrapper2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card-img4 {
+    width: 256px;
+    height: 256px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.card-img5 {
+    width: 256px;
+    height: 256px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.card-img6 {
+    width: 256px;
+    height: 256px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.smallcard-1 {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/coca-cola/Coca-Cola-Logo.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallcard-2 {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/sprite/new-654x1080/new-svg-logo/Sprite%20Logo.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallcard-3 {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/logos1/logo-svg/TU%20Logo.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallcard-4 {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/logos1/logo-svg/Limca.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallcard-5 {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/logos1/logo-svg/Fanta%20Logo.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallcard-6 {
+  background: url("https://www.coca-cola.com/content/dam/onexp/in/en/logos/maaza%20desktop-01.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-all {
+    margin-top: 30px;
+    width: 327px;
+}
+.view-all-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 41px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: black;
+  color: white;
+}
+.view-all-button p{
+    margin-top: 5px;
+    margin-bottom:5px ;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+button.view-all-button {
+  font-size: 20px;
+}
+/* end of sec-5 */
+
+/* staring of sec-6 */
+.big-para {
+  margin-top: 55px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 135px;
+}
+.big-para p {
+  margin-bottom: 20px;
+}
+/* end of sec-6 */
+
+/* staring of sec-7 */
+.sec-footer {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+.footer-container {
+  width: 1130px;
+  height: 600px;
+}
+.footer-sub1 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-img {
+  width: 300px;
+  height: 100%;
+}
+.loc-button {
+  width: 190px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loc-button p{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.footer-sub2 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+}
+.lists {
+  height: 100%;
+  width: 60%;
+  display: flex;
+}
+.lists h4 {
+  color: white;
+}
+.lists p {
+  color: white;
+}
+.list1 {
+  height: 100%;
+  width: 33.3333333333%;
+  padding-top: 50px;
+}
+.lists p{
+    padding-bottom: 10px;
+}
+.ul-padding{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.list2 {
+  height: 100%;
+  width: 33.3333333333%;
+  padding-top: 50px;
+}
+.list3 {
+  height: 100%;
+  width: 33.3333333333%;
+  padding-top: 80px;
+}
+li {
+  list-style: none;
+}
+.icons {
+  width: 40%;
+  height: 100%;
+  padding-top: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+.btn {
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 50%;
+  border-color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.footer-sub3{
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+}
+.footer-sub3 p{
+    color: white;
+}
